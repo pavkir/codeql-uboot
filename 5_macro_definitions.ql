@@ -1,5 +1,5 @@
 import cpp
 
 from Macro m 
-where m.getName() in ["htohs", "ntohl", "ntohll"]
+where m.getName() in ["ntohs", "ntohl", "ntohll"]
 select m
